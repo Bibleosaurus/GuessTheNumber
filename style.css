@@ -1,0 +1,84 @@
+body{
+    background: linear-gradient(#3E9A4C,#00826E,#2F4858, #006572);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0.6rem;
+    font-size: 1.2rem;
+}
+div{
+    margin:1.2rem;
+}
+img{
+    width: 400px;
+}
+
+::placeholder{
+    color: orange;
+}
+#input {
+    border:2px solid orange;
+    background-color: #006572;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 0.5rem;
+    margin-right: 20px;
+    outline: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+    color: orange;
+}
+
+#guessB{
+    border: 2px solid #FFA500;
+    padding: 0.5rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #FFA500;
+    background: #006572;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#guessB:hover{
+    padding: 0.5rem;
+    color: #006572;
+    background: orange;
+}
+
+p{
+    font-weight: bold;
+    color: orange;
+    font-size: 1.5rem;
+}
+
+.refreshButton{
+    border: 2px solid orange;
+    padding: 0.5rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: orange;
+    background: #006572;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 70px;
+    height: 40px;
+}
+.refreshButton:hover{
+    padding: 0.5rem;
+    color: #006572;
+    background: orange;
+}
