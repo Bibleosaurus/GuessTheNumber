@@ -16,7 +16,6 @@ guessButton.addEventListener("click", () => {
 		
 		resultField.innerText = ` Your guess was invalid value. Please enter a number between 1-100!`
 		attemptsField.innerText = `${guess}`
-		guess = guess + 1;
 		document.getElementById('input').value = ''
     
     }else if(inputValue === randomGuess) {
