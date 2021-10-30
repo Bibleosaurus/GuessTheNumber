@@ -24,7 +24,7 @@ guessButton.addEventListener("click", () => {
 		resultField.innerText = `Congrats ${inputValue} is the correct number, Wanna play again ?`
 		attemptsField.innerText = ` ${guess} Not bad`
 		document.getElementById('input').value = ''
-		checkButton.style.display = 'none';
+		guessButton.style.display = 'none';
 		const refreshButton = document.createElement('button');
 		refreshButton.innerHTML = 'Play Again';
 		refreshButton.classList.add('play_again');
